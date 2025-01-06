@@ -1,23 +1,4 @@
-# Freelance Marketplace Django
-
-## Table of Contents
-
-- [Overview](#overview)
-- [Features](#features)
-- [Technology Stack](#technology-stack)
-- [Installation](#installation)
-- [Configuration](#configuration)
-  - [Database Configuration](#database-configuration)
-  - [Razorpay Integration](#razorpay-integration)
-  - [Static and Media Files](#static-and-media-files)
-  - [Additional Configuration](#additional-configuration)
-- [Migrations](#migrations)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [Testing](#testing)
-- [License](#license)
-- [Contact](#contact)
-
+# Freelance Management System
 
 ## Overview
 
@@ -28,26 +9,11 @@ Freelance Marketplace Django is a powerful platform built on Django, facilitatin
 - **User Authentication**: Secure sign-up and login functionalities with password hashing and JWT tokens.
 - **Service Management**: Easy-to-use interface for freelancers to list, edit, and manage their services, including pricing and descriptions.
 - **Order Processing**: Smooth order management system with real-time updates on order status.
-- **Real-time Chat**: Built-in chat functionality for direct communication between freelancers and clients.
 - **Payment Integration**: Secure payment gateway integration for hassle-free transactions.
-- **Search and Filter**: Efficient search and filter options for finding relevant services.
-- **Admin Panel**: Admin dashboard for managing users, services, orders, and site settings.
-
-## Technology Stack
-
-- **Backend**: Django, Python
-- **Frontend**: HTML, CSS, JavaScript
-- **Database**: PostgreSQL (production) 
-- **Others**: Celery for asynchronous task processing, Redis for caching, Bootstrap 5 for frontend styling
 
 ### Razorpay Integration
 
 This project utilizes Razorpay for payment gateway integration. Razorpay is a leading payment gateway provider in India, offering secure and seamless payment processing solutions.
-
-### Bootstrap 5
-
-Bootstrap 5 is used for frontend styling and layout. It provides a comprehensive set of responsive design components and utilities, making it easier to build modern and mobile-friendly web interfaces.
-
 
 ## Installation
 
@@ -59,10 +25,7 @@ Before getting started, ensure you have the following prerequisites installed on
 - pip (Python package installer)
 - PostgreSQL
 
-```bash
-git clone https://github.com/anfiquehussain/Freelance-Marketplace-Django.git
-```
-
+1.**Download the .Zip file from the github and open in the IDE ( i used pycharm )**
 2. **Navigate to the project directory:**
 
 ```bash
@@ -195,13 +158,6 @@ python manage.py runserver
 
 Visit [http://127.0.0.1:8000/](http://127.0.0.1:8000/) in your browser to access the application.
 
-
-## Contributing
-Contributions are welcome! Please follow these steps to contribute:
-1. Fork the repository.
-2. Create a new branch for your feature or fix.
-3. Commit your changes with meaningful commit messages.
-4. Push your branch and open a pull request.
 
 
 ## Testing
