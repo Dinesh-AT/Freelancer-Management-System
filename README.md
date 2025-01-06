@@ -26,6 +26,7 @@ Before getting started, ensure you have the following prerequisites installed on
 - PostgreSQL
 
 1.**Download the .Zip file from the github and open in the IDE ( i used pycharm )**
+
 2. **Navigate to the project directory:**
 
 ```bash
@@ -40,13 +41,6 @@ cd Freelance-Marketplace-Django
   ```
   ```
   env\Scripts\activate
-  ```
-- On Unix or MacOS:
-  ```
-  python -m venv env
-  ```
-  ```
-  source env/bin/activate
   ```
 
 4. **Install dependencies:**
